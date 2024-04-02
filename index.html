@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="icon/css/all.min.css">
+</head>
+<style>
+    body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        justify-content: center; */
+        height: 100vh;
+        color: #333;
+    }
+
+    header {
+        /* position: relative; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+        background-color: white;
+    }
+
+    #logo {
+        width: 20%;
+        font-size: 20px;
+        color: #333;
+    }
+
+    #logo i {
+        width: 40px;
+        height: 30px;
+    }
+
+    #search {
+        width: 80%;
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    #search .search-bar {
+        width: 73%;
+        height: 40px;
+        border: none;
+        background-color: rgba(161, 159, 159, 0.341);
+        border-radius: 10px;
+    }
+
+    #colom {
+        width: 100px;
+        height: 80px;
+        position: absolute;
+        top: 20px;
+        right: 0px
+    }
+
+    #colom img {
+        color: #333;
+        width: 50%;
+        height: 80%;
+    }
+
+    #profile {
+        display: block;
+        text-align: center;
+
+    }
+
+    #title-bar {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    #title-bar .day {
+        position: absolute;
+        left: 300px;
+
+    }
+
+    #container-full {
+        padding-top: 10px;
+        display: flex;
+        width: 100%;
+        height: 150px;
+        margin-top: 50px;
+    }
+
+    #container-full .empty {
+        width: 20%;
+        height: 100%;
+    }
+
+    #container-full .container {
+        display: flex;
+        width: 65%;
+        height: 100%;
+    }
+
+    .container .image-src {
+        width: 10%;
+        height: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.184);
+        border-radius: 10px;
+        position: relative;
+
+    }
+
+    .container .image-src img {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 0px;
+        top: 20px;
+    }
+
+    .container .description {
+        position: relative;
+        padding-left: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.184);
+        border-radius: 10px;
+        width: 80%;
+        height: 100%;
+    }
+
+    .container .description .colom-1 {
+        position: absolute;
+        right: 0px;
+        bottom: 50px;
+        width: 100px;
+        height: 80px;
+    }
+</style>
+
+<body>
+    <header>
+        <div id="logo"><i class="fa-brands fa-chrome"></i>Download</div>
+        <div id="search">
+            <input type="text" name="" class="search-bar" placeholder="Search downlaod">
+        </div>
+        <div id="colom">
+            <img src="image/3.png" alt="">
+        </div>
+    </header>
+    <div id="profile">
+        <p> <i class="fa-solid fa-user"></i> Your <u style="color:rgb(0, 68, 255)">profile is manage</u> by
+            sabaicode.com</p>
+    </div>
+    <div id="title-bar">
+        <h3 class="day">Today</h3>
+    </div>
+    <div id="container-full">
+        <div class="empty">
+
+        </div>
+        <div class="container">
+            <div class="image-src">
+                <img src="image/1.png" alt="">
+            </div>
+            <div class="description">
+                <h1><u style="color:rgb(0, 68, 255)">pexel_video_001.mp4</u></h1>
+                <h3>https://youtu.be/iXaNrKI49kw?si=1yxUYPsutJd5z_aJ</h3>
+                <img src="image/3.png" alt="" class="colom-1">
+            </div>
+        </div>
+    </div>
+    <div id="title-bar">
+        <h3 class="day">April,1,2024</h3>
+    </div>
+    <div id="container-full">
+        <div class="empty">
+
+        </div>
+        <div class="container">
+            <div class="image-src">
+                <img src="image/2.svg" alt="">
+            </div>
+            <div class="description">
+                <h1><u style="color:rgb(0, 68, 255)">about visal</u></h1>
+                <h3>https://visaltorn38@gmail.com</h3>
+                <img src="image/3.png" alt="" class="colom-1">
+            </div>
+        </div>
+    </div>
+    <div id="title-bar">
+        <h3 class="day">April,2,2024</h3>
+    </div>
+    <div id="container-full">
+        <div class="empty">
+
+        </div>
+        <div class="container">
+            <div class="image-src">
+                <img src="image/4.png" alt="">
+            </div>
+            <div class="description">
+                <h1><u style="color:rgb(0, 68, 255)">DNSserver.txt</u></h1>
+                <h3>https://mail-dnsserver.google.com</h3>
+                <img src="image/3.png" alt="" class="colom-1">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
